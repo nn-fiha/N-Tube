@@ -5,29 +5,30 @@
 }
 
 .header{
+    background-color: white;
     height: 70px;
-    background-color: rgb(241, 241, 241);
     display: flex;
     justify-content: space-between; 
-    align-items: center;
+    align-items:center;
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
     z-index: 100;
+   
 
 }
 .sec__left{
 display: flex;
 justify-content: space-around; 
 align-items: center;
-width: 160px;
-padding-left: 20px;
-margin-right: 25px;
+width: 180px;
+padding-left: 40px;
+margin-right: 50px;
 
 }
 .sec__left img{
-    height: 55px;
+    height: 65px;
     width: 100%;
 }
 
@@ -41,48 +42,53 @@ margin-right: 25px;
 justify-content: space-between; 
 align-items: center;
 flex: 1;
-max-width: 600px;
+max-width: 800px;
 
 }
 .search__bar{
-    height: 2.38rem;
+    height: 2.97rem;
     flex: 1;
 	border-radius: 30px 0 0 30px;
     border: 1px solid rgb(201, 200, 200);
-    font-size: 16px;
+    font-size: 18px;
     box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
     width: 0;
 }
 .search__bar::placeholder{
     padding: 20px; 
+
 }
 
 .search__icon{
    
-    padding-top: 5px;
-    padding-bottom:4px;
+    padding-top: 11px;
+    padding-bottom:6px;
     padding-left: 20px;
     padding-right: 20px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 30px 30px 0;
     border: 1px solid rgb(201, 200, 200);
-    background-color:rgb(246, 246, 246);
+    background-color:rgb(246, 246, 246); 
     cursor: pointer;  
     transition:background-color 0.2s,opacity 0.2s; 
-    margin-right: 20px;
+    margin-right: 15px;
     margin-left:-1px ;
 }
-.sec__mid button:hover{
-    background-color:rgb(221, 221, 221);
+.search__icon:hover{
+     background-color:rgb(221, 221, 221); 
 }
-.sec__mid button:active{
+.search__icon:active{
     opacity: 0.6;
 }
 .micro__icon{
-    background-color:rgb(246, 246, 246);
+     background-color:rgb(246, 246, 246); 
     border-radius: 50px;
-    border: 1px solid rgb(203, 199, 199);
-    padding: 5px;
+    border: none;
+    padding: 12px;
     cursor: pointer;
+}
+.micro__icon:hover{
+     background-color:rgb(221, 221, 221);
+
 }
 
 
@@ -90,15 +96,15 @@ max-width: 600px;
 display: flex;
 justify-content: space-around; 
 align-items: center; 
-width: 180px;
+width: 200px;
 padding-right: 20px;
 margin-left: 25px;
 
 }
 
 .sec__right img{
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
     border-radius: 18px;
 }
 .bell__notification{
@@ -107,13 +113,15 @@ margin-left: 25px;
 }
 .notification{
     position: absolute;
-    top: 0;
-    right:-4px;
-    background-color: red;
+    top: -2px;
+    right:-13px;
+    background-color: rgb(224, 2, 2);
     color: white;
-    padding: 3px 6px;
+    padding: 3px 7px;
    border-radius: 35px;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 13px;
     
 }
+
+    
