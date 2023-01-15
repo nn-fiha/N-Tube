@@ -22,13 +22,13 @@
 display: flex;
 justify-content: space-around; 
 align-items: center;
-width: 180px;
+width: 220px;
 padding-left: 40px;
 margin-right: 50px;
 
 }
 .sec__left img{
-    height: 65px;
+    height: 68px;
     width: 100%;
 }
 
